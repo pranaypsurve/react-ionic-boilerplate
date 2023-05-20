@@ -1,0 +1,7 @@
+{
+  "name": "Pranay Ionic App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

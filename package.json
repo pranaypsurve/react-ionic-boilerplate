@@ -1,0 +1,75 @@
+{
+  "name": "test",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
+    "eject": "react-scripts eject",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@capacitor/app": "5.0.2",
+    "@capacitor/core": "5.0.3",
+    "@capacitor/haptics": "5.0.2",
+    "@capacitor/keyboard": "5.0.2",
+    "@capacitor/status-bar": "5.0.2",
+    "@ionic/react": "^7.0.0",
+    "@ionic/react-router": "^7.0.0",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "history": "^5.3.0",
+    "ionicons": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.3",
+    "web-vitals": "^2.1.4",
+    "workbox-background-sync": "^6.5.4",
+    "workbox-broadcast-update": "^6.5.4",
+    "workbox-cacheable-response": "^6.5.4",
+    "workbox-core": "^6.5.4",
+    "workbox-expiration": "^6.5.4",
+    "workbox-google-analytics": "^6.5.4",
+    "workbox-navigation-preload": "^6.5.4",
+    "workbox-precaching": "^6.5.4",
+    "workbox-range-requests": "^6.5.4",
+    "workbox-routing": "^6.5.4",
+    "workbox-strategies": "^6.5.4",
+    "workbox-streams": "^6.5.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.0.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "Chrome >=60",
+      "ChromeAndroid >=60",
+      "Firefox >=63",
+      "Edge >=79",
+      "Safari >=13",
+      "iOS >=13"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "An Ionic project"
+}
